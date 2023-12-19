@@ -1,0 +1,161 @@
+.bik {
+  background-color: #ff4500;
+  width: 100px;
+  height: 100px;
+  margin: 60px 90px;
+  padding: 20px 50px;
+  transition: all 1s;
+}
+
+.bik:hover {
+  background-color: green;
+  width: 130px;
+  height: 130px;
+  transition: all 1s;
+  transform: rotate(1turn);
+}
+
+img[alt] {
+  filter: blur(2px);
+  width: 200px;
+  transition: all 1.5s;
+}
+
+.dog:hover {
+  filter: grayscale();
+}
+
+.tt {
+  text-align: center;
+  font-family: Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif;
+}
+
+.tt:hover {
+  animation: 2s changeColor;
+}
+
+@keyframes changeColor {
+  from {
+    color: red;
+    background-color: #ff0;
+    font-size: 15px;
+  }
+
+  to {
+    color: #000;
+    background-color: #0ff;
+    font-size: 24px;
+  }
+}
+
+strong {
+  color: #006400;
+}
+
+.rect {
+  background-color: plum;
+  width: 200px;
+  height: 100px;
+  margin: 50px 80px;
+  padding: 30px 60px;
+}
+
+.rect:hover {
+  background-color: #0ff;
+}
+
+h2 {
+  background-color: #1e90ff;
+  margin: 20px 40px;
+  padding: 0 40px;
+}
+
+a {
+  color: #9400d3;
+  background-color: #deb887;
+  font-size: large;
+  text-decoration: none;
+}
+
+#circle {
+  background-color: #000;
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+  transition: all 2s;
+}
+
+#circle:hover {
+  background-color: #dc1616;
+  border-radius: 150px;
+  width: 250px;
+  height: 250px;
+  margin-left: 150px;
+  transition: all 2s;
+  transform: scale(1);
+}
+
+h2 {
+  text-align: center;
+  font-family: Georgia, Times New Roman, Times, serif;
+  font-size: 16px;
+}
+
+.nav {
+  list-style-type: none;
+}
+
+.nav li {
+  color: #ff4500;
+  background-color: #faebd7;
+  border: 2px solid purple;
+  border-radius: 15px;
+  margin-left: 30px;
+  padding: 10px 15px;
+  font-family: cursive;
+  font-size: 18px;
+  display: inline;
+}
+
+.tags ol {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  line-height: 1, 5em;
+  color: #149031;
+  background-color: pink;
+  margin-left: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+table {
+  margin: 25px auto;
+}
+
+table td, table th {
+  padding: 10px;
+}
+
+thead {
+  background-color: #5353d3;
+}
+
+tbody {
+  background-color: #ecec44;
+}
+
+tfoot {
+  background-color: #db7093;
+}
+
+td {
+  cursor: pointer;
+  transition: all 2s;
+}
+
+td:hover {
+  background-color: red;
+  transform: scale(1.2);
+}
+
+/*# sourceMappingURL=index.38ec9247.css.map */
